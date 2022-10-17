@@ -1,4 +1,5 @@
-var saveBtn= $("#saveBtn")
+var currentDate = moment().format("dddd,MMMM Do YYYY");
+$("#currentDay").text(currentDate);
 
-localStorage.setItem()
+
 
