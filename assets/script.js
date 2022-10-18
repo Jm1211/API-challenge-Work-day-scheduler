@@ -24,3 +24,28 @@ $(document).ready(function () {
     $("#hour-5 .description").val(localStorage.getItem("hour-5"));
 
 });
+
+function hourTracker(){
+    var currentTime=moment().hour();
+
+    $(".time-block").each(function(){
+        var blockTime=parseInt($(this).attr("id").split("hour")[1]);
+
+        if(blockTime<currentTime){
+            $(this).removeClass('future');
+            $(this).removeClass('present');
+        }
+        else if(blockTime=currentTime){
+            $(this).removeClass('past');
+            $(this).removeClass('future');
+            $(this).addClass('present');
+
+        }
+        else {
+            $(this).removeClass('past');
+            $(this).removeClass('present');
+            $(this).addClass('future');
+        }
+    })
+
+}
