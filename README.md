@@ -14,6 +14,7 @@ https://jm1211.github.io/API-challenge-Work-day-scheduler/
 
 -At the top of the work day scheduler you are provided with the current date.
 -It displays the hours of 8AM-5PM. Each time block is color coded to let you know if the hour is in the past(grey),present(red) or future(green). Each time block also has an input field and save button that shares your input to local storage.
+<img width="1440" alt="Screen Shot 2022-10-19 at 11 06 52 AM" src="https://user-images.githubusercontent.com/110876203/196758041-6eb4b5e4-cb81-4d67-81bb-81b015cab8d4.png">
 
 
 ## License
