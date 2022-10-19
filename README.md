@@ -7,7 +7,8 @@ This is a simple day scheduler application to plan out your day! It runs on HTML
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+click on link to use Work Day Scheduler!
+https://jm1211.github.io/API-challenge-Work-day-scheduler/
 
 ## Usage
 
